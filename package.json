@@ -38,7 +38,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
     "classnames": "^2.2.5",
     "google-maps": "^3.2.1",
     "lodash": "^3.10.1",
