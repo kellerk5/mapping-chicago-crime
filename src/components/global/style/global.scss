@@ -1,0 +1,15 @@
+//general global
+$deep-blue: #242f3e;
+
+//responsive schtuff
+$screen-xs:                  480px !default;
+$screen-sm:                  768px !default;
+$screen-md:                  992px !default;
+$screen-lg:                  1200px !default;
+
+@mixin respond-to($media) {
+	//covers all devices we need
+	@if $media == xs-md {
+		@media only screen and (max-width: $screen-md) { @content; }
+	}
+}

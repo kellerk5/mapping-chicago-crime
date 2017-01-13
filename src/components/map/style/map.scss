@@ -1,0 +1,15 @@
+@import '../../global/style/global.scss';
+
+#mapContainer {
+	border: 1px solid $deep-blue;
+
+	//map height must be defined explicitly
+	height: 91vh;
+
+	@include respond-to(xs-md) {
+		height: 95vh;
+	}
+}
+
+
+

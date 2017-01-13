@@ -1,0 +1,26 @@
+@import '../../global/style/global.scss';
+
+.dropdowns-and-button-container__query-button {
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	margin: 20px 0px 20px 0px;
+	width: 140px;
+	height: 30px;
+	background-color: $deep-blue;
+	border-radius: 5px;
+	border: none;
+	color: white;
+
+	@include respond-to(xs-md) {
+		display: block;
+		margin: 20px auto;
+	}
+
+	&:hover {
+		cursor: pointer;
+		background-color: white;
+		border: 1px solid $deep-blue;
+		color: $deep-blue;
+	}
+}

@@ -1,0 +1,20 @@
+@import '../../global/style/global.scss';
+
+.dropdowns-and-button-container__error-message-container {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 10px;
+
+	&__error-message {
+		color: red;
+		font-size: 14px;
+
+		@include respond-to(xs-md) {
+			font-size: 12px;
+		}
+	}
+}
+
+.inactive {
+	display: none;
+}
