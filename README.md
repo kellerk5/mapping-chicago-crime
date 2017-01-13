@@ -1,4 +1,4 @@
-#Chicago Crime Map
+#Mapping Chicago Crime
 
 ###Starting the Application
 ```
