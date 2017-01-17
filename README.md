@@ -3,7 +3,7 @@
 ###Starting the Application
 ```
 - git clone {myGitRepo}
-- cd chicago-crime-map
+- cd mapping-chicago-crime
 - npm install
 - npm start
 - Check 'localhost:8080' 
